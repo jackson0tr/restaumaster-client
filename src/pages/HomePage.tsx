@@ -35,7 +35,7 @@ const HomePage = () => {
           />
         </div>
         <div className="grid md:grid-cols-2 gap-5">
-          <img loading="lazy" src={landingImage} />
+          <img loading="lazy" alt="img" src={landingImage} />
           <div className="flex flex-col items-center justify-center gap-4 text-center">
             <span className="font-semibold text-2xl tracking-tighter">
               Order takeaway even faster!
@@ -44,7 +44,7 @@ const HomePage = () => {
               Download the RestauMaster App for faster ordering and personalised
               recommendations
             </span>
-            <img src={appDownloadImage} />
+            <img loading="lazy" alt="img" src={appDownloadImage} />
           </div>
         </div>
       </div>

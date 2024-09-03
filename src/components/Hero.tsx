@@ -4,7 +4,7 @@ const Hero = () =>{
   return (
    
     <div>
-      <img src={hero} className="w-full max-h-[600px] object-cover " alt="img" />
+      <img src={hero} loading="lazy" className="w-full max-h-[600px] object-cover " alt="img" />
     </div>
   );
 }
